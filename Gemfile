@@ -17,6 +17,8 @@ group :development, :test do
 end
 
 gem 'pg'
+gem 'rails_12factor'
+
 group :production do
      gem 'pg'
      gem 'rails_12factor'
@@ -37,4 +39,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin]
