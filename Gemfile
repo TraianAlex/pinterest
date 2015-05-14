@@ -13,15 +13,18 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 
 group :development, :test do
-     gem 'sqlite3'
+    gem 'sqlite3'
 end
 
 group :production do
-     gem 'pg'
-     gem 'rails_12factor'
+    gem 'pg'
+    gem 'rails_12factor'
 end
 
-gem 'sdoc', '~> 0.4.0', group: :doc
+group :doc do
+	gem 'sdoc', require: false
+end
+#gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
