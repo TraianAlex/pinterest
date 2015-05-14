@@ -16,7 +16,7 @@ group :development, :test do
      gem 'sqlite3'
 end
 
-#gem 'pg'
+gem 'pg'
 #gem 'rails_12factor'
 
 group :production do
