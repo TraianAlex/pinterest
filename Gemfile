@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 
 gem 'rails', '4.1.8'
 gem 'sass-rails', '~> 4.0.3'
@@ -16,8 +16,8 @@ group :development, :test do
      gem 'sqlite3'
 end
 
-gem 'pg'
-gem 'rails_12factor'
+#gem 'pg'
+#gem 'rails_12factor'
 
 group :production do
      gem 'pg'
@@ -39,4 +39,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-#gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
